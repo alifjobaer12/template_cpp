@@ -1,4 +1,5 @@
-//                   ~ HI I'M alifjobaer12 ~                       //
+//             starting with the name of almighty ALLAH           //
+//                   ~ HI I'M alifjobaer12 ~                      //
 //              ^.^  TARGET NEXT ICPC REGION  ^.^                 //
 
 #include <bits/stdc++.h>
@@ -47,11 +48,14 @@ void _print(T t, V... v) {__print(t); if (sizeof...(v)) cerr << ", "; _print(v..
 #define in_prii pair < int, prii >
 #define prdd pair<double, double>
 #define endl '\n'
+#define yes cout<<"YES"<<'\n';
+#define no cout<<"NO"<<'\n';
 #define pb push_back
 #define F first
 #define S second
 #define MP make_pair
 #define all(a) (a).begin(), (a).end()
+#define rall(a) (a).rbegin(), (a).rend()
 #define sz(x) (int)x.size()
 #define mid(l, r) ((r + l) / 2)
 #define t_c int TT; cin >> TT; for (int tc = 1; tc <= TT; tc++)
@@ -64,6 +68,11 @@ void _print(T t, V... v) {__print(t); if (sizeof...(v)) cerr << ", "; _print(v..
 #define lcm(a, b) (a * (b / gcd(a, b)))
 #define sqr(a) ((a) * (a))
 #define arr_in(v,n) for(int i=0;i<n;i++) cin>>v[i];
+#define arr_out(v,n) for(int i=0; i<n; i++) cout<<v[i]<<" ";cout<<endl;
+#define vc_out(v) for(auto &val:v)cout<<val<<" ";cout<<endl;
+#define srt_vc(v) sort(v.begin(),v.end());
+#define rsrt_vc(v) sort(v.rbegin(),v.rend());
+#define rv_vc(v) reverse(v.begin(),v.end());
 
 const double PI = (2.0 * acos(0.0));
 const double eps = 1e-9;
@@ -215,6 +224,13 @@ bool isok(int x,int y){
 
 inline int ceil(int a, int b) {
     return (a + b - 1) / b;
+}
+
+inline long long arr_sum(long long a[], int n){
+    long long s = 0;
+    for (int i = 0; i < n; i++)
+        s += a[i];
+    return s;
 }
 
 inline int abs(int a, int b) {
