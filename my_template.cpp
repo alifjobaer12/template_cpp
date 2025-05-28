@@ -270,6 +270,8 @@ void precomp() {
 
 void AliF_solve() {
 
+    cout<<"alifjobaer12"<<endl;
+
     return;
 }
 
