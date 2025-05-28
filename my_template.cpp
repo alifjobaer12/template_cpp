@@ -69,7 +69,7 @@ void _print(T t, V... v) {__print(t); if (sizeof...(v)) cerr << ", "; _print(v..
 #define sqr(a) ((a) * (a))
 #define arr_in(v,n) for(int i=0;i<n;i++) cin>>v[i];
 #define arr_out(v,n) for(int i=0; i<n; i++) cout<<v[i]<<" ";cout<<endl;
-#define vc_out(v) for(auto &val:v)cout<<val<<" ";cout<<endl;
+#define _out(v) for(auto &val:v)cout<<val<<" ";cout<<endl;
 #define srt_vc(v) sort(v.begin(),v.end());
 #define rsrt_vc(v) sort(v.rbegin(),v.rend());
 #define rv_vc(v) reverse(v.begin(),v.end());
